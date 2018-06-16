@@ -2283,7 +2283,7 @@ end subroutine <prefix>gels_lwork
 
    subroutine <prefix2c>gegv(compute_vl,compute_vr,n,a,b,alpha,beta,vl,ldvl,vr,ldvr,work,lwork,rwork,info)
      ! Compute the generalized eigenvalues (alpha, beta)
-     ! of the comples nonsymmetric matrices A and B: det(A-w*B)=0 where w=alpha/beta.
+     ! of the complex nonsymmetric matrices A and B: det(A-w*B)=0 where w=alpha/beta.
      ! Optionally, compute the left and/or right generalized eigenvectors:
      ! (A - w B) r = 0, l^H * (A - w B) = 0
      !
